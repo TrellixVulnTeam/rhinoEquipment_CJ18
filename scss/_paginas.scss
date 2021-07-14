@@ -215,6 +215,7 @@
 
 @media screen and (max-width: 900px) {
   .main {
+    margin-top: 50px;
     width: 100vw;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
@@ -227,6 +228,74 @@
       img {
         width: 500px;
         height: 450px;
+      }
+
+      .main__productos--info {
+        width: 100vw;
+        margin: 15px 0;
+
+        h3 {
+          font-size: 1.2em;
+        }
+
+        p {
+          font-size: 0.85em;
+        }
+      }
+    }
+  }
+
+  .main_cardio {
+    width: 90vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "pro" "semipro" "wallmount" "p4";
+
+    .main__productos {
+      width: 90vw;
+      margin: 15px auto;
+
+      div.main__productos--imagen {
+        img {
+          width: 400px;
+          height: 400px;
+        }
+      }
+    
+      div.main__productos--info {
+        width: 90vw;
+        margin: 15px 0;
+        
+        h3 {
+          font-size: 1.2em;
+        }
+  
+        p {
+          font-size: 0.85em;
+        }
+
+      }    
+    }
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .main {
+    margin-top: 20px;
+    width: 100vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "pro" "semipro" "wallmount";
+
+    .main__productos {
+      width: 80vw;
+      margin: 25px auto;
+
+      img {
+        width: 95vw;
+        height: 400px;
+        border-radius: 6px;
       }
 
       .main__productos--info {
