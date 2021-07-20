@@ -215,3 +215,43 @@ footer {
     }
   }
   
+
+  // 480px
+
+  @media screen and (max-width: 480px) {
+  
+    footer {
+      height: 900px;
+  
+      .contactenos {
+        height: 725px;
+  
+        .contactenos__formulario {
+          width: 100vw;
+  
+          .contactenos__formulario--inputNombre,
+          .contactenos__formulario--inputEmail {
+            width: 80vw;
+          }
+  
+          .contactenos__formulario--textarea {
+            width: 80vw;
+          }
+  
+          .contactenos__formulario--inputReset,
+          .contactenos__formulario--inputSend {
+            width: 70vw;
+          }
+        }
+      }
+  
+      .nosotros {
+        width: 80vw;
+        height: max-content;
+      }
+  
+      .connect {
+        top: -200px;
+      }
+    }
+  }

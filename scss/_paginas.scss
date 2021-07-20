@@ -292,6 +292,15 @@
         height: 400px;
         border-radius: 6px;
       }
+
+      .main__productos--info {
+        width: 90vw;
+        text-align: center;
+
+        p {
+          line-height: 1rem;
+        }
+      }
     }
   }
 
