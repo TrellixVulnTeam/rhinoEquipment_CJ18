@@ -889,26 +889,12 @@ footer {
 @media screen and (max-width: 800px) {
   .mainCompras {
     display: grid; }
-    .mainCompras .mainCompras__imagenProductos {
+    .mainCompras .mainCompras__imagenProductos, .mainCompras .mainCompras__imagenProductos--plates {
       display: none; }
     .mainCompras .mainCompras__carousel {
       display: block; }
       .mainCompras .mainCompras__carousel .carousel-inner {
         height: 50vw; }
-    .mainCompras .mainCompras__imagenProductos--plates {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(4, 1fr);
-      grid-template-areas: "div1" "div2" "div3" "div4";
-      gap: 10px; }
-      .mainCompras .mainCompras__imagenProductos--plates .mainCompras__imagenProductos--div1 img {
-        width: 60%; }
-      .mainCompras .mainCompras__imagenProductos--plates .mainCompras__imagenProductos--div2 img {
-        width: 60%; }
-      .mainCompras .mainCompras__imagenProductos--plates .mainCompras__imagenProductos--div3 img {
-        width: 60%; }
-      .mainCompras .mainCompras__imagenProductos--plates .mainCompras__imagenProductos--div4 img {
-        width: 60%; }
     .mainCompras .mainCompras__imagenProductos--dominadas img {
       width: 95vw;
       height: 350px;
