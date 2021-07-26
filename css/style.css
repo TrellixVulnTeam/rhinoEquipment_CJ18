@@ -114,7 +114,7 @@ header {
       background-color: #151515;
       width: 105%;
       margin-left: -105%;
-      transition: all 0.8s;
+      transition: .5s;
       z-index: 50; }
       header .header__menu ul {
         flex-direction: column;
