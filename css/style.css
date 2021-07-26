@@ -818,7 +818,7 @@ footer {
           background-color: tomato;
           cursor: pointer; }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1500px) {
   .mainCompras {
     display: grid; }
     .mainCompras .mainCompras__imagenProductos {
