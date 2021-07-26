@@ -22,8 +22,8 @@ header {
     justify-content: center;
     align-items: center; }
     header .header__logo img {
-      width: 35px;
-      height: 35px; }
+      width: 45px;
+      height: 45px; }
   header .header__search {
     height: 60px;
     display: flex;
