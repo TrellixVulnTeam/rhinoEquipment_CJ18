@@ -516,7 +516,7 @@ footer {
   .main_cardio .grid4 {
     grid-area: p4; }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1550px) {
   .main {
     width: 90vw; }
     .main .main__productos {
@@ -954,12 +954,9 @@ body {
   overflow-x: hidden;
   line-height: 1;
   font-weight: 200; }
-
-/* Scrollbar */
-body::-webkit-scrollbar {
-  background-color: black;
-  width: 10px; }
-
-body::-webkit-scrollbar-thumb {
-  background-color: red;
-  border-radius: 10px; }
+  body::-webkit-scrollbar {
+    background-color: black;
+    width: 10px; }
+  body::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px; }
