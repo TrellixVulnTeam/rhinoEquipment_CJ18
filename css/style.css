@@ -59,8 +59,8 @@ header {
         color: white;
         z-index: 60;
         width: max-content;
-        border-radius: 5px;
-        height: max-content; }
+        height: max-content;
+        border-radius: 5px; }
         header .header__menu ul li ul li {
           font-size: 0.93em;
           display: block; }
@@ -98,8 +98,8 @@ header {
     header label {
       display: block;
       display: flex;
-      align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      align-items: center; }
       header label img {
         width: 26px;
         height: 28px; }
@@ -153,10 +153,10 @@ header {
     opacity: 0.85;
     display: flex;
     flex-flow: column nowrap;
-    align-items: center;
     justify-content: center;
-    align-self: center;
-    justify-self: center; }
+    align-items: center;
+    justify-self: center;
+    align-self: center; }
     .main__productos div.main__productos--estilo:hover {
       opacity: 1;
       transition: 0.6s;

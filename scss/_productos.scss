@@ -1,3 +1,10 @@
+$rojo: rgb(255,0,0);
+
+@mixin centrar {
+  justify-content: center;
+  align-items: center;
+}
+
 // Productos Principales
 
 .main__productos {
@@ -16,8 +23,7 @@
       "assault assault"
       "assault assault";
     gap: 0.05em;
-    justify-content: center;
-    align-items: center;
+    @include centrar();
   
 
     div.main__productos--estilo {
@@ -28,10 +34,9 @@
       opacity: 0.85;
       display: flex;
       flex-flow: column nowrap;
-      align-items: center;
-      justify-content: center;
-      align-self: center;
+      @include centrar();
       justify-self: center;
+      align-self: center;
   
       &:hover {
         opacity: 1;

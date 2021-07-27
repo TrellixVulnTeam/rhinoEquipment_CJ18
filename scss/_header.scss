@@ -1,3 +1,5 @@
+$rojo: rgb(255,0,0);
+
 @mixin centrar {
   justify-content: center;
   align-items: center;
@@ -77,7 +79,7 @@ header {
           color: white;
           text-decoration: none;
           &:hover {
-            color: red;
+            color: $rojo;
           }
         }
 
@@ -90,14 +92,14 @@ header {
           color: white;
           z-index: 60;
           width: max-content;
-          border-radius: 5px;
           height: max-content;
-
+          border-radius: 5px;
+          
           li {
             font-size: 0.93em;
             display: block;
             &:hover {
-              color: red;
+              color: $rojo;
             }
           }
         }
@@ -113,8 +115,7 @@ header {
   height: 30px;
   background-color: rgb(21, 21, 21);
   display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centrar();
   position: sticky;
   top: 0vh;
   z-index: 10;
@@ -124,7 +125,7 @@ header {
   }
 
   h1 {
-    color: red;
+    color: $rojo;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-size: 1.2em;
@@ -147,8 +148,7 @@ header {
     label {
       display: block;
       display: flex;
-      align-items: center;
-      justify-content: center;
+      @include centrar();
       img {
         width: 26px;
         height: 28px;
