@@ -3,6 +3,7 @@
 @import "footer";
 @import "paginas";
 @import "compras";
+$rojo: rgb(255, 0, 0);
 
 * {
   margin: 0;
@@ -21,7 +22,7 @@ body {
     width: 10px;
   }
   &::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: $rojo;
     border-radius: 10px;
   }
 }
