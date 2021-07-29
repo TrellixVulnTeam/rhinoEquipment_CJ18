@@ -12,7 +12,7 @@ header {
     height: 55px; }
     header label:hover {
       cursor: pointer;
-      background-color: grey; }
+      background-color: rgba(78, 78, 78, 0.8); }
     header label img {
       width: 35px;
       height: 35px; }
@@ -40,7 +40,7 @@ header {
     padding-left: 0.5rem;
     margin-bottom: 0; }
     header .header__menu ul li {
-      font-size: 0.93em;
+      font-size: 1em;
       position: relative;
       top: 4px;
       padding: 20px 25px; }
@@ -62,7 +62,7 @@ header {
         height: max-content;
         border-radius: 5px; }
         header .header__menu ul li ul li {
-          font-size: 0.93em;
+          font-size: 0.95em;
           display: block; }
           header .header__menu ul li ul li:hover {
             color: red; }
@@ -751,7 +751,8 @@ footer {
     display: grid;
     grid-template-columns: 800px 800px;
     grid-template-rows: 1fr;
-    gap: 40px; }
+    gap: 40px;
+    line-height: 1.5; }
     .mainCompras .mainCompras__descripcionProducto .mainCompras__descripcionProducto--texto h3 {
       text-align: left;
       margin-bottom: 15px; }
