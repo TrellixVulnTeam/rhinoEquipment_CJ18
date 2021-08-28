@@ -32,6 +32,11 @@ header {
     header .header__search img {
       width: 20px;
       height: 20px; }
+    header .header__search .carrito {
+      width: 25px;
+      height: 25px;
+      position: relative;
+      left: 4vw; }
   header .header__menu ul {
     list-style: none;
     display: flex;
@@ -133,7 +138,7 @@ header {
       grid-area: search;
       justify-self: flex-end;
       position: relative;
-      left: -4vw; } }
+      left: -8vw; } }
 
 .main__productos {
   width: 65%;
@@ -212,6 +217,42 @@ header {
     background-image: url(../imagenes/assaultbike1.jpg); }
     .main__productos div.assaultbike p {
       color: black; }
+
+.wodGen {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .wodGen h4 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 20px; }
+  .wodGen button {
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: #1e1e1e;
+    text-transform: uppercase;
+    border: 1px solid #1e1e1e;
+    margin-bottom: 20px; }
+    .wodGen button:hover {
+      background: #3c3c3c; }
+  .wodGen p {
+    text-align: center; }
+  .wodGen .randomWod {
+    background-color: #1e1e1e;
+    color: white;
+    height: fit-content;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; }
+    .wodGen .randomWod #demo2 {
+      text-align: center; }
 
 @media screen and (max-width: 1300px) {
   .main__productos {

@@ -44,9 +44,16 @@ header {
     display: flex;
     align-items: center;
     cursor: pointer;
+
     img {
       width: 20px;
       height: 20px;
+    }
+    .carrito {
+      width: 25px;
+      height: 25px;
+      position: relative;
+      left: 4vw;
     }
   }
 
@@ -194,7 +201,7 @@ header {
       grid-area: search;
       justify-self: flex-end;
       position: relative;
-      left: -4vw;
+      left: -8vw;
     }
   }
 }

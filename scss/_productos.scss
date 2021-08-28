@@ -115,6 +115,54 @@
   
 }
 
+.wodGen {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h4 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 20px;
+  }
+  button {
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    text-transform: uppercase;
+    border: 1px solid rgb(30, 30, 30);
+    margin-bottom: 20px;
+    &:hover {
+      background: rgb(60, 60, 60);
+    }
+  }
+
+  p {
+    text-align: center;
+  }
+  
+  
+  .randomWod {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    height: fit-content;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    #demo2 {
+      text-align: center;
+    }
+  }
+  
+
+}
+
 
 // Media Querys 
 
